@@ -9,5 +9,7 @@ void main() {
 catch (e) {
     print("Erreur : Veuillez entrer un nombre valide.");
   } 
-
+finally {
+    print("Fin d'opération.");
+  }
 }
